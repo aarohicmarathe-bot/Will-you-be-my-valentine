@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Comic Sans MS', cursive;
+  background: linear-gradient(to right, #ff758c, #ff7eb3);
+  text-align: center;
+  overflow: hidden;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.main-img {
+  width: 250px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: white;
+  font-size: 35px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 18px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#yesBtn {
+  background: #28a745;
+  color: white;
+}
+
+#noBtn {
+  background: #dc3545;
+  color: white;
+  position: absolute;
+}
